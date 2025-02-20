@@ -1,0 +1,41 @@
+---
+title: Polars for Data Science
+author: Ronny
+format: html
+---
+
+
+# Creating a pl.DataFrame
+
+```{python}
+import polars as pl
+```
+
+```{python}
+scratch_df = pl.DataFrame({
+    "customer_id" : [1,2,3],
+        "first_name" : ["dan", "jan", "tan"],
+    "last_name" : ["hanson", "manson", "tanson"]
+})
+```
+
+```{python}
+display(scratch_df)
+```
+
+Or
+
+```{python}
+print(scratch_df)
+```
+
+Which is the same.
+
+## Reading from csv
+
+```{python}
+
+```
+
+
+
